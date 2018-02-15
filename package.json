@@ -6,12 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "webpack"
-  ],
+  "keywords": ["webpack"],
   "author": "Juho Vepsalainen",
   "license": "MIT",
   "dependencies": {
     "webpack-sources": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bebraw/redirect-webpack-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bebraw/redirect-webpack-plugin/issues"
   }
 }
