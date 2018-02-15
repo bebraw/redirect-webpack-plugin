@@ -1,0 +1,17 @@
+{
+  "name": "redirect-webpack-plugin",
+  "version": "0.0.0",
+  "description": "Write redirects using webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Juho Vepsalainen",
+  "license": "MIT",
+  "dependencies": {
+    "webpack-sources": "^1.1.0"
+  }
+}
