@@ -7,7 +7,7 @@ module.exports = class RedirectWebpackPlugin {
   apply(compiler) {
     const { redirects } = this.options;
 
-    compiler.plugin("emit", (compilation, cb) => {
+    compiler.hooks.emit.tapAsync('RedirectWebpackPlugin', (compilation, cb) => {
       Object.keys(redirects).forEach(from => {
         const to = redirects[from];
 
